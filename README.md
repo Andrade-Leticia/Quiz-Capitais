@@ -1,6 +1,6 @@
 ## Sobre o Projeto
 
-Este projeto é um jogo de quiz interativo sobre capitais do mundo, desenvolvido em HTML, CSS e JavaScript. Ele possui um design responsivo com animações de fundo, gradientes de cor e controle de áudio. O jogo consiste em perguntas relacionadas às capitais de diferentes países, onde o jogador precisa selecionar a resposta correta para acumular pontos.
+Este projeto é um jogo de quiz interativo sobre capitais do mundo, desenvolvido em **HTML**, **CSS** e **JavaScript**. Ele possui um design responsivo com animações de fundo, gradientes de cor e controle de áudio. O jogo consiste em perguntas relacionadas às capitais de diferentes países, onde o jogador precisa selecionar a resposta correta para acumular pontos.
 
 ### Funcionalidades 
 
@@ -42,7 +42,7 @@ Este projeto é um jogo de quiz interativo sobre capitais do mundo, desenvolvido
 
 O projeto utiliza:
 
-- **Gradientes:** Para dar um efeito visual agradável, os gradientes são aplicados ao fundo das telas e ao texto <h1>.
+- **Gradientes:** Para dar um efeito visual agradável, os gradientes são aplicados ao fundo das telas e ao texto "Quiz de Capitais".
 - **Animação de Gradiente no Texto: O título "Quiz de Capitais" usa background-clip:** text para exibir um gradiente no texto.
 - **Animação de Terra Rotativa:** A Terra animada (earth.gif) gira indefinidamente no topo da tela inicial.
 - **Transições Suaves:** Botões e outros elementos possuem transições suaves ao passar o mouse (hover).
@@ -72,10 +72,10 @@ O jogo tem controles de áudio com botões de:
 
 ### Desenvolvedores
 
-Ana Carolina Curi de Sales
-Guilherme Felippe Lazari
-Leticia Maria Maia de Andrade Vieira
-Victor Valerio Fadel
+1. Ana Carolina Curi de Sales
+2. Guilherme Felippe Lazari
+3. Leticia Maria Maia de Andrade Vieira
+4. Victor Valerio Fadel
 
 <!-- Badges -->
 [visual-studio-code]: https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?logo=visualstudiocode&logoColor=fff&style=for-the-badge
