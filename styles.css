@@ -1,0 +1,216 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+/* Estilos Gerais das Telas */
+.tela {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #FFBF00, #000000);
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.tela h1 {
+    font-size: 64px;
+    background: linear-gradient(to bottom right, #0f2027, #ff6e7f, #ff3e00);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    position: absolute; 
+    top: 0; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    margin: 20px 0; 
+}
+
+#tela-inicial {
+    background-image: url('asserts/mapa_mundi_7.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.escondido {
+    display: none;
+}
+
+/* Botões */
+.botao {
+    width: 200px;
+    padding: 15px;
+    margin: 10px;
+    background-color: rgba(255, 140, 0, 1);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.botao:hover {
+    background-color: rgba(255, 140, 0, 0.7);
+}
+
+#btn-informacoes {
+    background-color: rgb(149, 1, 1);
+}
+
+#btn-informacoes:hover {
+    background-color: rgb(149, 0, 1, 0.7);
+}
+
+#btn-sair {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#btn-sair:hover {
+    opacity: 0.5;
+}
+
+/* Earth Animada */
+#earth-animada {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    animation: rotacionar 5s linear infinite;
+}
+
+@keyframes transladar {
+    0% {
+        transform: translateX(0); 
+    }
+    100% {
+        transform: translateX(300px); 
+    }
+}
+
+/* Tela do Jogo */
+#tela-jogo {
+    background: linear-gradient(to bottom right, #0f2027, #ff6e7f, #ff3e00);
+    background-size: cover;
+    background-position: center;
+}
+
+#pergunta {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#bandeira {
+    width: 300px;
+    height: 150px;
+    border: 2px solid #000;
+    margin-bottom: 20px;
+}
+
+#opcoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.opcao {
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.opcao:hover {
+    background-color: #CCCCCC;
+}
+
+/* Tela de Fim de Jogo */
+#tela-fim {
+    background: linear-gradient(to bottom right, #0f2027, #ff6e7f, #ff3e00);
+}
+
+#tela-fim h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#pontuacao {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+/* Tela de Informações */
+#tela-informacoes {
+    padding: 20px;
+    overflow-y: auto;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom right, #0f2027, #ff6e7f, #ff3e00);
+    border-radius: 10px;
+}
+
+#info-cidade {
+    font-size: 20px;
+    margin-bottom: 20px;
+    white-space: pre-line;
+}
+
+/* Controles de Música */
+#controles-musica {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#controles-musica button {
+    margin: 0 5px;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+#controles-musica button:hover {
+    color: #FFBF00;
+}
+
+.volume-control {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.volume-control i {
+    margin: 0 5px;
+    color: #FFFFFF;
+}
+
+#slider-volume {
+    width: 100px;
+}

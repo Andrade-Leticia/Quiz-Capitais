@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Capitais</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Tela Inicial -->
+    <div id="tela-inicial" class="tela">
+        <h1>Quiz de Capitais</h1>
+        <div class="botao" id="btn-iniciar">Iniciar Jogo</div>
+        <div class="botao" id="btn-sair">Sair</div>
+        <div class="botao" id="btn-informacoes">Informações</div>
+        <img src="/asserts/earth.gif" alt="Terra Animada" id="earth-animada">
+    </div>
+
+    <!-- Tela do Jogo -->
+    <div id="tela-jogo" class="tela escondido">
+        <div id="pergunta">Pergunta aqui</div>
+        <img src="" alt="Bandeira" id="bandeira">
+        <div id="opcoes">
+            <div class="opcao" data-opcao="0">Opção 1</div>
+            <div class="opcao" data-opcao="1">Opção 2</div>
+            <div class="opcao" data-opcao="2">Opção 3</div>
+        </div>
+    </div>
+
+    <!-- Tela de Fim de Jogo -->
+    <div id="tela-fim" class="tela escondido">
+        <h2>Fim do Jogo!</h2>
+        <p id="pontuacao">Pontuação: 0</p>
+        <div class="botao" id="btn-retornar">Retornar à Tela Inicial</div>
+    </div>
+
+    <!-- Tela de Informações das Cidades -->
+    <div id="tela-informacoes" class="tela escondido">
+        <div id="info-cidade">Informações da cidade aqui</div>
+        <div class="botao" id="btn-continuar-info">Continuar</div>
+    </div>
+
+    <!-- Controles de Música -->
+    <div id="controles-musica">
+        <button id="btn-pause" title="Pause"><i class="fas fa-pause"></i></button>
+        <button id="btn-play" title="Play"><i class="fas fa-play"></i></button>
+        <button id="btn-restart" title="Restart"><i class="fas fa-redo"></i></button>
+        <div class="volume-control">
+            <i class="fas fa-volume-down"></i>
+            <input type="range" id="slider-volume" min="0" max="1" step="0.01" value="1">
+            <i class="fas fa-volume-up"></i>
+        </div>
+    </div>
+
+    <!-- Elementos de Áudio -->
+    <audio id="musica-fundo" src="/asserts/adventures.mp3" loop></audio>
+    <audio id="som-clique" src="/asserts/click.wav"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
