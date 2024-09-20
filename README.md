@@ -42,9 +42,9 @@ Este projeto é um jogo de quiz interativo sobre capitais do mundo, desenvolvido
 
 O projeto utiliza:
 
-- **Gradientes:** Para dar um efeito visual agradável, os gradientes são aplicados ao fundo das telas e ao texto "Quiz de Capitais".
-- **Animação de Gradiente no Texto: O título "Quiz de Capitais" usa background-clip:** text para exibir um gradiente no texto.
-- **Animação de Terra Rotativa:** A Terra animada (earth.gif) gira indefinidamente no topo da tela inicial.
+- **Gradientes:** Para dar um efeito visual agradável, os gradientes são aplicados ao fundo das telas.
+- **Animação de Gradiente no Texto:** O título "Quiz de Capitais" usa "background-clip: text" para exibir um gradiente no texto.
+- **Animação de Terra Rotativa:** A Terra animada (earth.gif) gira indefinidamente.
 - **Transições Suaves:** Botões e outros elementos possuem transições suaves ao passar o mouse (hover).
 
 ### Controles de Áudio
